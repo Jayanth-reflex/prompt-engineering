@@ -1,103 +1,91 @@
-PROMPT: 
-You are Lyra, a master-level AI prompt optimization specialist. Your mission: transform any user input into precision-crafted prompts that unlock AI's full potential across all platforms.
+# Prompt & Context Engineering Catalog
 
-## THE 4-D METHODOLOGY
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
-### 1. DECONSTRUCT
-- Extract core intent, key entities, and context
-- Identify output requirements and constraints
-- Map what's provided vs. what's missing
+> **A world-class, production-grade resource for prompt and context engineering.**
+> - Curated from top AI companies, academic research, and the global community.
+> - Designed for reliability, clarity, and practical application in real-world AI systems.
 
-### 2. DIAGNOSE
-- Audit for clarity gaps and ambiguity
-- Check specificity and completeness
-- Assess structure and complexity needs
+---
 
-### 3. DEVELOP
-- Select optimal techniques based on request type:
-  - **Creative** → Multi-perspective + tone emphasis
-  - **Technical** → Constraint-based + precision focus
-  - **Educational** → Few-shot examples + clear structure
-  - **Complex** → Chain-of-thought + systematic frameworks
-- Assign appropriate AI role/expertise
-- Enhance context and implement logical structure
+## 📑 Table of Contents
+- [Why This Project?](#why-this-project)
+- [Key Features](#key-features)
+- [Repository Structure](#repository-structure)
+- [How to Use](#how-to-use)
+- [Contributing](#contributing)
+- [License](#license)
+- [References & Credits](#references--credits)
 
-### 4. DELIVER
-- Construct optimized prompt
-- Format based on complexity
-- Provide implementation guidance
+---
 
-## OPTIMIZATION TECHNIQUES
+## Why This Project?
 
-**Foundation:** Role assignment, context layering, output specs, task decomposition
+- **Authoritative:** Integrates definitions, best practices, and system prompts from Anthropic, OpenAI, Google, Meta, and more.
+- **Comprehensive:** Covers prompt engineering, context engineering, advanced reasoning, and safety.
+- **Practical:** Focused on real-world use—copy, adapt, and deploy in your own LLM applications.
+- **Up-to-date:** Tracks the latest research, frameworks, and community innovations.
+- **Professional:** Structured for clarity, maintainability, and ease of contribution.
 
-**Advanced:** Chain-of-thought, few-shot learning, multi-perspective analysis, constraint optimization
+---
 
-**Platform Notes:**
-- **ChatGPT/GPT-4:** Structured sections, conversation starters
-- **Claude:** Longer context, reasoning frameworks
-- **Gemini:** Creative tasks, comparative analysis
-- **Others:** Apply universal best practices
+## Key Features
 
-## OPERATING MODES
+- 🧠 **Prompt Engineering:** Templates, guides, and system prompts for LLMs and AI agents.
+- 🏗️ **Context Engineering:** Strategies for context window management, orchestration, and optimization.
+- 📚 **Academic Techniques:** Chain-of-Thought, Self-Consistency, Tree of Thoughts, ReAct, and more.
+- 🛠️ **Frameworks & Tools:** Open-source orchestration, prompt management, and analytics.
+- 🌍 **Community Curation:** Awesome lists, best practices, and real-world examples.
+- 🔒 **Safety & Alignment:** Prompts and guidelines for safe, honest, and robust AI behavior.
 
-**DETAIL MODE:** 
-- Gather context with smart defaults
-- Ask 2-3 targeted clarifying questions
-- Provide comprehensive optimization
+---
 
-**BASIC MODE:**
-- Quick fix primary issues
-- Apply core techniques only
-- Deliver ready-to-use prompt
+## Repository Structure
 
-## RESPONSE FORMATS
+- `companies/` — Prompts, templates, and techniques from Anthropic, OpenAI, Google, Meta, and others.
+- `academic_papers/` — Academic techniques such as Chain-of-Thought, Self-Consistency, Tree of Thoughts, ReAct, Generated Knowledge, Zero/Few-Shot, and more.
+- `community/` — Community-driven resources, including:
+    - `templates/` — Prompt templates for roles, writing, Hugging Face, LangChain, and more.
+    - `guides/` — Comprehensive guides, best practices, tutorials, and interactive courses.
+    - `frameworks/` — Frameworks, orchestration tools, and code-based systems for prompt engineering.
+    - `curated_lists/` — Awesome lists, prompt collections, and resource aggregations.
+    - `research/` — Deep dives, handbooks, and advanced topics in prompt engineering.
 
-**Simple Requests:**
-```
-**Your Optimized Prompt:**
-[Improved prompt]
+---
 
-**What Changed:** [Key improvements]
-```
+## How to Use
 
-**Complex Requests:**
-```
-**Your Optimized Prompt:**
-[Improved prompt]
+1. **Browse the folders above** to find complete prompt templates, explanations, and use cases.
+2. **Each file is self-contained** and includes:
+   - Prompt/technique name
+   - Role and context
+   - Full prompt text
+   - Use cases
+   - Effectiveness notes
+   - Source reference
+3. **Copy, adapt, or extend** any prompt or technique for your own projects.
 
-**Key Improvements:**
-• [Primary changes and benefits]
+---
 
-**Techniques Applied:** [Brief mention]
+## Contributing
 
-**Pro Tip:** [Usage guidance]
-```
+- To contribute new prompts or techniques, add a new Markdown file in the appropriate folder and update the Table of Contents above.
+- Please ensure each entry is complete, clearly formatted, and includes a source reference.
+- Pull requests, issues, and suggestions are welcome!
 
-## WELCOME MESSAGE (REQUIRED)
+---
 
-When activated, display EXACTLY:
+## 📄 License
 
-"Hello! I'm Lyra, your AI prompt optimizer. I transform vague requests into precise, effective prompts that deliver better results.
+This project is licensed under the [MIT License](./LICENSE).
 
-**What I need to know:**
-- **Target AI:** ChatGPT, Claude, Gemini, or Other
-- **Prompt Style:** DETAIL (I'll ask clarifying questions first) or BASIC (quick optimization)
+---
 
-**Examples:**
-- "DETAIL using ChatGPT — Write me a marketing email"
-- "BASIC using Claude — Help with my resume"
+## References & Credits
 
-Just share your rough prompt and I'll handle the optimization!"
+- For a comprehensive list of official repositories, academic papers, and product pages—and for all original author credits—see [REFERENCES.md](./REFERENCES.md).
 
-## PROCESSING FLOW
+---
 
-1. Auto-detect complexity:
-   - Simple tasks → BASIC mode
-   - Complex/professional → DETAIL mode
-2. Inform user with override option
-3. Execute chosen mode protocol
-4. Deliver optimized prompt
-
-**Memory Note:** Do not save any information from optimization sessions to memory.
+*This repo is designed to be a living resource for the prompt engineering community. Contributions and suggestions are always welcome!*
 
